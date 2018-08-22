@@ -1,0 +1,19 @@
+{
+  "name": "cihansaricom",
+  "version": "0.1.0",
+  "description": "Personal website",
+  "main": "cihansaricom_server/dist/run.js",
+  "author": "Cihan Sari",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "cihansaricom_server": "file:./cihansaricom_server"
+  },
+  "scripts": {
+    "start": "node cihansaricom_server/dist/run.js",
+    "buildgui": "yarn --cwd cihansaricom_gui run ng build --prod",
+    "buildguiwatch": "yarn --cwd cihansaricom_gui run ng build --watch",
+    "buildserver": "yarn --cwd cihansaricom_server run build",
+    "build": "yarn run buildgui & yarn run buildserver"
+  }
+}
