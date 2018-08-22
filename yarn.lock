@@ -10,6 +10,19 @@
   version "1.1.8"
   resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git#dba07422319a6e4e547d20e4ef1d075a46911aaa"
 
+"@lavaland/server@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git":
+  version "1.1.10"
+  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git#a8fa87a1181b7a39a4e1bcc2b9c8eacdae828649"
+  dependencies:
+    "@lavaland/common" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git"
+    "@lavaland/gui" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git"
+    body-parser "^1.18.3"
+    express "^4.16.3"
+    express-ws "^4.0.0"
+    minimist "^1.2.0"
+    sqlite3 "^4.0.2"
+    winston "^3.0.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -164,13 +177,13 @@ chownr@^1.0.1:
 "cihansaricom_server@file:./cihansaricom_server":
   version "0.1.0"
   dependencies:
+    "@lavaland/server" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git"
     body-parser "^1.18.3"
     clothingweb "^0.9.2"
     cookie-parser "~1.4.3"
     debug "~2.6.9"
     express "~4.16.0"
     express-subdomain "^1.0.5"
-    lavaland "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git"
     morgan "~1.9.0"
 
 clothingweb@^0.9.2:
@@ -648,19 +661,6 @@ kuler@1.0.x:
   resolved "https://registry.yarnpkg.com/kuler/-/kuler-1.0.0.tgz#904ad31c373b781695854d32be33818bf1d60250"
   dependencies:
     colornames "^1.1.1"
-
-"lavaland@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git":
-  version "1.1.8"
-  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git#6a7c7a350566d889ffe5bef57f8ffd378d61f390"
-  dependencies:
-    "@lavaland/common" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git"
-    "@lavaland/gui" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git"
-    body-parser "^1.18.3"
-    express "^4.16.3"
-    express-ws "^4.0.0"
-    minimist "^1.2.0"
-    sqlite3 "^4.0.2"
-    winston "^3.0.0"
 
 lodash@^4.17.10:
   version "4.17.10"
