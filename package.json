@@ -1,6 +1,6 @@
 {
   "name": "cihansaricom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Personal website",
   "main": "cihansaricom_server/dist/run.js",
   "author": "Cihan Sari",

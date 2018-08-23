@@ -175,20 +175,20 @@ chownr@^1.0.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
 
 "cihansaricom_server@file:./cihansaricom_server":
-  version "0.1.0"
+  version "0.1.1"
   dependencies:
     "@lavaland/server" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git"
     body-parser "^1.18.3"
-    clothingweb "^0.9.2"
+    clothingweb "^0.9.4"
     cookie-parser "~1.4.3"
     debug "~2.6.9"
     express "~4.16.0"
     express-subdomain "^1.0.5"
     morgan "~1.9.0"
 
-clothingweb@^0.9.2:
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/clothingweb/-/clothingweb-0.9.2.tgz#2901bf5a9fcec9618d32c3ccae3da991fe2945d9"
+clothingweb@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/clothingweb/-/clothingweb-0.9.4.tgz#fb792966eb830932daf89ef5f14dcb759288fa58"
   dependencies:
     body-parser "^1.18.3"
     express "^4.16.3"

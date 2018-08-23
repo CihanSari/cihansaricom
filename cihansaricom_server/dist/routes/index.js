@@ -19,9 +19,7 @@ function getRouter() {
     }
     else {
         // Highjack to redirect until our greeting page is up
-        router.use((req, res, next) => {
-            res.redirect(301, "//clothingweb.cihansari.com/");
-        });
+        router.use((req, res, next) => res.redirect(301, "//clothingweb.cihansari.com/"));
     }
     return router;
 }
