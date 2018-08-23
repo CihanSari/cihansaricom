@@ -1,6 +1,6 @@
 {
   "name": "cihansaricomserver",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Personal website",
   "main": "dist/run.js",
   "repository": "https://CihanSari@bitbucket.org/CihanSari/cihansaricom.git",
@@ -15,7 +15,7 @@
   "dependencies": {
     "@lavaland/server": "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git",
     "body-parser": "^1.18.3",
-    "clothingweb": "^0.9.4",
+    "clothingweb": "git+https://github.com/CihanSari/ClothingWeb",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",

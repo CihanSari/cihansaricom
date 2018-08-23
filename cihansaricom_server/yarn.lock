@@ -306,9 +306,9 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
 
-clothingweb@^0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/clothingweb/-/clothingweb-0.9.4.tgz#fb792966eb830932daf89ef5f14dcb759288fa58"
+"clothingweb@git+https://github.com/CihanSari/ClothingWeb":
+  version "0.9.5"
+  resolved "git+https://github.com/CihanSari/ClothingWeb#874fe3512e609ae68c000b21ac50356f7420e754"
   dependencies:
     body-parser "^1.18.3"
     express "^4.16.3"
