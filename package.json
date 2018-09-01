@@ -9,6 +9,9 @@
   "dependencies": {
     "cihansaricom_server": "file:./cihansaricom_server"
   },
+  "engines": {
+    "node": "8.9.4"
+  },
   "scripts": {
     "start": "node cihansaricom_server/dist/run.js",
     "buildgui": "yarn --cwd cihansaricom_gui run ng build --prod",
