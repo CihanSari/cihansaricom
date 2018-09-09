@@ -9,11 +9,10 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "start": "node ./dist/run.js",
-    "madge": "madge dist --circular"
+    "start": "node ./dist/run.js"
   },
   "dependencies": {
-    "@lavaland/server": "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git",
+    "@lavaland/main": "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavaland.git",
     "body-parser": "^1.18.3",
     "clothingweb": "git+https://github.com/CihanSari/ClothingWeb",
     "cookie-parser": "~1.4.3",
@@ -28,7 +27,6 @@
     "@types/express": "^4.16.0",
     "@types/express-ws": "^3.0.0",
     "@types/morgan": "^1.7.35",
-    "madge": "^3.2.0",
     "typescript": "^3.0.1"
   }
 }

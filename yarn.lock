@@ -2,20 +2,10 @@
 # yarn lockfile v1
 
 
-"@lavaland/common@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git":
-  version "1.0.4"
-  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git#fba57575c4e99155ac60c5659e0c8eb1842ef2ee"
-
-"@lavaland/gui@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git":
-  version "1.1.8"
-  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git#dba07422319a6e4e547d20e4ef1d075a46911aaa"
-
-"@lavaland/server@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git":
-  version "1.1.10"
-  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git#a8fa87a1181b7a39a4e1bcc2b9c8eacdae828649"
+"@lavaland/main@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavaland.git":
+  version "0.1.0"
+  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavaland.git#8890c735ba41bb1dd9296ab01d560b0b1c46808e"
   dependencies:
-    "@lavaland/common" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git"
-    "@lavaland/gui" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git"
     body-parser "^1.18.3"
     express "^4.16.3"
     express-ws "^4.0.0"
@@ -177,7 +167,7 @@ chownr@^1.0.1:
 "cihansaricom_server@file:./cihansaricom_server":
   version "0.1.3"
   dependencies:
-    "@lavaland/server" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git"
+    "@lavaland/main" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavaland.git"
     body-parser "^1.18.3"
     clothingweb "git+https://github.com/CihanSari/ClothingWeb"
     cookie-parser "~1.4.3"
@@ -203,16 +193,12 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
 color-convert@^1.9.1:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.2.tgz#49881b8fba67df12a96bdf3f56c0aab9e7913147"
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
   dependencies:
-    color-name "1.1.1"
+    color-name "1.1.3"
 
-color-name@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.1.tgz#4b1415304cf50028ea81643643bd82ea05803689"
-
-color-name@^1.0.0:
+color-name@1.1.3, color-name@^1.0.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
 
@@ -326,7 +312,7 @@ detect-libc@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
 
-diagnostics@^1.0.1:
+diagnostics@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/diagnostics/-/diagnostics-1.1.1.tgz#cab6ac33df70c9d9a727490ae43ac995a769b22a"
   dependencies:
@@ -386,7 +372,7 @@ express-ws@^4.0.0:
 
 express@^4.16.3, express@~4.16.0:
   version "4.16.3"
-  resolved "https://registry.yarnpkg.com/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
+  resolved "http://registry.npmjs.org/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
   dependencies:
     accepts "~1.3.5"
     array-flatten "1.1.1"
@@ -509,8 +495,8 @@ getpass@^0.1.1:
     assert-plus "^1.0.0"
 
 glob@^7.0.5:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -545,7 +531,7 @@ http-errors@1.6.2:
 
 http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
   version "1.6.3"
-  resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
+  resolved "http://registry.npmjs.org/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
   dependencies:
     depd "~1.1.2"
     inherits "2.0.3"
@@ -666,7 +652,7 @@ lodash@^4.17.10:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
-logform@^1.9.0:
+logform@^1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/logform/-/logform-1.9.1.tgz#58b29d7b11c332456d7a217e17b48a13ad69d60a"
   dependencies:
@@ -688,15 +674,15 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
 
-mime-db@~1.35.0:
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.35.0.tgz#0569d657466491283709663ad379a99b90d9ab47"
+mime-db@~1.36.0:
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.36.0.tgz#5020478db3c7fe93aad7bbcc4dcf869c43363397"
 
 mime-types@^2.1.12, mime-types@~2.1.18, mime-types@~2.1.19:
-  version "2.1.19"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.19.tgz#71e464537a7ef81c15f2db9d97e913fc0ff606f0"
+  version "2.1.20"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.20.tgz#930cb719d571e903738520f8470911548ca2cc19"
   dependencies:
-    mime-db "~1.35.0"
+    mime-db "~1.36.0"
 
 mime@1.2.X:
   version "1.2.11"
@@ -714,11 +700,11 @@ minimatch@^3.0.4:
 
 minimist@0.0.8:
   version "0.0.8"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+  resolved "http://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
 minimist@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
+  resolved "http://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
 minipass@^2.2.1, minipass@^2.3.3:
   version "2.3.4"
@@ -735,7 +721,7 @@ minizlib@^1.1.0:
 
 mkdirp@^0.5.0, mkdirp@^0.5.1:
   version "0.5.1"
-  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
+  resolved "http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
 
@@ -1210,13 +1196,13 @@ winston-transport@^4.2.0:
     triple-beam "^1.2.0"
 
 winston@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/winston/-/winston-3.0.0.tgz#1f0b24a96586798bcf0cd149fb07ed47cb01a1b2"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-3.1.0.tgz#80724376aef164e024f316100d5b178d78ac5331"
   dependencies:
     async "^2.6.0"
-    diagnostics "^1.0.1"
+    diagnostics "^1.1.1"
     is-stream "^1.1.0"
-    logform "^1.9.0"
+    logform "^1.9.1"
     one-time "0.0.4"
     readable-stream "^2.3.6"
     stack-trace "0.0.x"

@@ -10,7 +10,7 @@
     "cihansaricom_server": "file:./cihansaricom_server"
   },
   "engines": {
-    "node": "8.9.4"
+    "node": "10.5.0"
   },
   "scripts": {
     "start": "node cihansaricom_server/dist/run.js",

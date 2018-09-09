@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const path = require("path");
-const server_1 = require("@lavaland/server");
+const main_1 = require("@lavaland/main");
 function getRouter() {
-    return server_1.middlewareServeLavaland(path.join(__dirname, "../../../node_modules/@lavaland/gui/dist"));
+    return main_1.middlewareServeLavaland(path.join(__dirname, "../../../node_modules/@lavaland/main/lavalandangular/dist"));
 }
 exports.getRouter = getRouter;

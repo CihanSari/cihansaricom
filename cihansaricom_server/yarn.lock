@@ -2,20 +2,10 @@
 # yarn lockfile v1
 
 
-"@lavaland/common@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git":
-  version "1.0.4"
-  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git#fba57575c4e99155ac60c5659e0c8eb1842ef2ee"
-
-"@lavaland/gui@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git":
-  version "1.1.8"
-  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git#dba07422319a6e4e547d20e4ef1d075a46911aaa"
-
-"@lavaland/server@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git":
-  version "1.1.10"
-  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandserver.git#a8fa87a1181b7a39a4e1bcc2b9c8eacdae828649"
+"@lavaland/main@git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavaland.git":
+  version "0.1.0"
+  resolved "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavaland.git#8890c735ba41bb1dd9296ab01d560b0b1c46808e"
   dependencies:
-    "@lavaland/common" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandcommon.git"
-    "@lavaland/gui" "git+https://CihanSari:5S2r4LVJdd3T834L4Nw6@bitbucket.org/saripoor/lavalandangular.git"
     body-parser "^1.18.3"
     express "^4.16.3"
     express-ws "^4.0.0"

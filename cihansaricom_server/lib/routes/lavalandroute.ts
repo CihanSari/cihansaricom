@@ -1,7 +1,7 @@
 import * as path from "path";
-import { middlewareServeLavaland } from "@lavaland/server";
+import { middlewareServeLavaland } from "@lavaland/main";
 export function getRouter() {
   return middlewareServeLavaland(
-    path.join(__dirname, "../../../node_modules/@lavaland/gui/dist")
+    path.join(__dirname, "../../../node_modules/@lavaland/main/lavalandangular/dist")
   );
 }
