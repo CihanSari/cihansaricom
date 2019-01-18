@@ -21,6 +21,8 @@
   },
   "scripts": {
     "start": "node cihansaricom_server/dist/run.js",
+    "startLavaland": "node cihansaricom_server/dist/lava.js",
+    "startClothing": "node cihansaricom_server/dist/clothing.js",
     "buildgui": "yarn --cwd cihansaricom_gui run ng build --prod",
     "buildguiwatch": "yarn --cwd cihansaricom_gui run ng build --watch",
     "buildserver": "yarn --cwd cihansaricom_server run build",
