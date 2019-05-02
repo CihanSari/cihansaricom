@@ -18,9 +18,9 @@
   },
   "scripts": {
     "start": "node cihansaricom_server/dist/run.js",
-    "buildgui": "yarn --cwd cihansaricom_gui run ng build --prod",
-    "buildguiwatch": "yarn --cwd cihansaricom_gui run ng build --watch",
-    "buildserver": "yarn --cwd cihansaricom_server run build",
-    "build": "yarn run buildgui & yarn run buildserver"
+    "buildgui": "cd cihansaricom_gui && npm run build",
+    "buildguiwatch": "cd cihansaricom_gui && npm run build --watch",
+    "buildserver": "cd cihansaricom_server && npm run build",
+    "build": "npm run buildgui & npm run buildserver"
   }
 }

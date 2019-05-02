@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 600px;
-  min-width: 410px;
+  max-width: 35em;
+  min-width: 18em;
   margin: auto;
   height: 100%;
   padding: 0 4em;
@@ -21,15 +21,22 @@
 }
 
 #buttongroup>a {
-  min-width: 110px;
+  min-width: 11em;
   text-align: center;
   font-family: 'Moon';
   color: #ececec;
   font-weight: lighter;
   font-size: 75%;
   flex-basis: 20%;
-  margin: 0 1em;
+  margin: .5em 1em;
 }
+
+@media only screen and (max-width: 35em) {
+  #buttongroup {
+    flex-direction: column;
+  }
+}
+
 
 p {
   text-align: justify;
@@ -40,7 +47,7 @@ p {
   width: auto;
   height: auto;
   max-width: 100%;
-  max-width: 250px;
+  max-width: 15em;
 }
 
 #name {
